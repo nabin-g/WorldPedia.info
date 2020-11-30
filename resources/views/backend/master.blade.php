@@ -1,0 +1,6 @@
+@include('backend.includes.head')
+@include('backend.includes.actionbar')
+@include('backend.includes.sidebar')
+@yield('content')
+@include('backend.includes.footer')
+@include('backend.includes.foot')
